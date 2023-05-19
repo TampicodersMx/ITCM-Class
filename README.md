@@ -29,4 +29,4 @@ Consiste en la creación de una API Restful usando Laravel como lenguaje de back
 
 ## How to start?
 
-Para empezar deben clonar este repositorio, el cual es en si un proyecto en Laravel
+Para empezar deben clonar este repositorio, el cual es en si un proyecto en Laravel e Instalar las herramientas listadas en el apartado de Pre-requisitos.
