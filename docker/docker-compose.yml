@@ -1,0 +1,43 @@
+version: '3'
+services:
+  api_code:
+    build:
+      args:
+        user: itcm 
+        uid: 12345
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    working_dir: /var/www/html/itcm
+    volumes:
+      - ../:/var/www/html/itcm
+    networks:
+      - itcm-demo
+
+  mongo_db:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: ITCM@2023
+    volumes:
+      - ./mongo_db_data:/data/db
+    ports:
+      - 27017:27017
+    networks:
+      - itcm-demo
+
+  app_server:
+    image: nginx:alpine
+    container_name: itcm-nginx
+    restart: unless-stopped
+    ports:  
+      - 8081:80
+    volumes:
+      - ../:/var/www/html/itcm
+      - ./default.conf:/etc/nginx/conf.d/site.conf
+    networks:
+      - itcm-demo
+
+networks:
+  itcm-demo:
+    driver: bridge

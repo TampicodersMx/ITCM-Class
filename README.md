@@ -19,7 +19,17 @@ Consiste en la creación de una API Restful usando Laravel como lenguaje de back
 - Instalar Docker Desktop (https://www.docker.com/products/docker-desktop/)
 - Instalar Composer, gestor de dependencias de php (https://getcomposer.org/Composer-Setup.exe)
 - Instalar MongoDB Compass GUI (https://downloads.mongodb.com/compass/mongodb-compass-1.36.4-win32-x64.exe)
-- Instalar PHP 8.1 
+- Instalar PHP 8.1 (https://windows.php.net/downloads/releases/php-8.1.19-Win32-vs16-x64.zip), descargan el .zip, lo descomprimen y lo pegan en C:/
+- Instalar Node JS (https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi)
+- Instalar Git (https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe)
+
+### Opcional
+- Descargar Github Desktop
+
+
+## How to start?
+
+Para empezar deben clonar este repositorio, el cual es en si un proyecto en Laravel
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -29,7 +39,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
+- [Robust background job processing](https://laravel.com/docs/queues). 
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
