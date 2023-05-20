@@ -30,3 +30,11 @@ Consiste en la creación de una API Restful usando Laravel como lenguaje de back
 ## ¿Como empezar?
 
 Se debe clonar este repositorio, el cual es en si un proyecto en Laravel e Instalar las herramientas listadas en el apartado de Pre-requisitos. Lo siguiente sera abordado en el Workshop el dia 23 a las 16:00 hrs Salon C
+
+## Explicacion
+
+- Se debe instalar la extension de Mongodb en PHP (https://github.com/mongodb/mongo-php-driver/releases/) dependiendo si es TS o NTS (php -i | findstr -i "thread")
+- Configurar el config/database con las opciones de Mongo. config\database.php
+- Configurar el provider app.php 
+
+
