@@ -27,6 +27,6 @@ Consiste en la creación de una API Restful usando Laravel como lenguaje de back
 - Descargar Github Desktop
 
 
-## How to start?
+## ¿Como empezar?
 
-Para empezar deben clonar este repositorio, el cual es en si un proyecto en Laravel e Instalar las herramientas listadas en el apartado de Pre-requisitos.
+Se debe clonar este repositorio, el cual es en si un proyecto en Laravel e Instalar las herramientas listadas en el apartado de Pre-requisitos. Lo siguiente sera abordado en el Workshop el dia 23 a las 16:00 hrs Salon C
